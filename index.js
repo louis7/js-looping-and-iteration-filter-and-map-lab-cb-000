@@ -1,10 +1,7 @@
 // Code your solution here:
 
-function driversWithRevenueOver(driver,revenue) {
-   const newDrivers = [];
-
-    for (const driver of drivers) {
-      if ( driver.revenue > revenue {
-        newDrivers.push(driver);
-        returns newDrivers
+function driversWithRevenueOver (drivers, revenue) {
+  return drivers.filter(function (driver) {
+    return driver.revenue > revenue;
+  });
 }
